@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(imagens-cap19/wallpaper001.jpg);
+}
+
+.quadrado {
+    display: inline-block;
+    background-color: lightpink;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#q1 {
+    background-color: lightblue;
+}
+
+#q2 {
+    background-image: linear-gradient(to bottom, lightblue, lightpink);
+}
+
+#q3 {
+    background-image: url(imagens-cap19/pattern003.png);
+}
