@@ -11,7 +11,6 @@
     Grandes telas: acima de 1200px
 */
 
-
 @media print {
     * {
         font-family: 'Courier New', Courier, monospace;
@@ -43,6 +42,20 @@
     #pc {display: none;}
     #tv {display: none;}
 
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px ){
+    body {
+        background-image: url(../imagens/back-phone.jpg);
+        height: 100vh;
+        width: 100vw;
+    }
+
+    #phone {display: block;}
+    #tablet {display: none;}
+    #print {display: none;}
+    #pc {display: none;}
+    #tv {display: none;}
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
