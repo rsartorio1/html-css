@@ -4,7 +4,7 @@
     --cor1: #F5E3E0;
     --cor2: #FA7DA0;
     --cor3: #db2973;
-    --cor4: #883955;
+    --cor4: #c03767;
     --cor5: #0F110C; 
 }
 
@@ -18,17 +18,18 @@ body, html {
 }
 
 header {
-    background-color: var(--cor3);
+    background-color: var(--cor4);
 }
 
 header h1 {
     padding: 10px;
     text-align: center;
     color: var(--cor1);
+    text-shadow: 2px 3px 5px var(--cor4);
 }
 
 #burger {
-    background-color: var(--cor4);
+    background-color: var(--cor3);
     display: block;
     color: var(--cor1);
     text-align: center;
@@ -37,8 +38,8 @@ header h1 {
 }
 
 #burger:hover {
-    background-color: var(--cor5);
-    color: var(--cor4);
+    background-color: var(--cor4);
+    color: var(--cor1);
 }
 menu {
     
@@ -54,14 +55,14 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     color: var(--cor1);
-    background-color: var(--cor4);
+    background-color: var(--cor3);
     text-align: center;
     border-top: 2px solid rgba(0, 0, 0, 0.363);
 }
 
 menu > ul > li > a:hover {
-    background-color: var(--cor5);
-    color: var(--cor4);
+    background-color: var(--cor4);
+    color: var(--cor1);
 }
 
 main {
