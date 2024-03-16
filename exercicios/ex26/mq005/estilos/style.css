@@ -33,7 +33,7 @@ header h1 {
     background-color: var(--cor3);
     display: block;
     color: var(--cor1);
-    text-align: center;
+    text-align: left;
     padding: 10px;
     cursor: pointer;
 }
