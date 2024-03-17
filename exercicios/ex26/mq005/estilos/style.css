@@ -58,7 +58,7 @@ menu > ul > li > a {
     color: var(--cor1);
     background-color: var(--cor3);
     text-align: center;
-    border-top: 2px solid rgba(0, 0, 0, 0.363);
+    border-top: 1px solid rgba(0, 0, 0, 0.267);
     border-radius: 10px 10px 0px 0px;
 }
 
